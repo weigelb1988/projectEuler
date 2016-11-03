@@ -38,5 +38,4 @@ for x in range(1,1001):
         this_line = this_line + lengths[x%100]
     print(x, this_line)
     sum = sum + this_line
-  
-print(sum, 21124-sum)  
+print(sum)
