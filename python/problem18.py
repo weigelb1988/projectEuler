@@ -46,7 +46,7 @@ node_counter = 0
 node_graph = Graph()
 node_list = []
 new_highs = [] 
-with open('problem18.txt') as f:
+with open('problem67.txt') as f:
     lines = f.readlines()
     for x in range(len(lines)-1, -1 ,-1): # reverse up the lines
         if not new_highs:
