@@ -10,6 +10,8 @@
  */
 
 #include <stdio.h>
+
+
 unsigned int sum_divisors(unsigned int num);
 unsigned int is_amicable(unsigned int num);
 
